@@ -1,13 +1,14 @@
 /* Estilos CSS para el Sitio de Mountain Bike */
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #fceed1; /* Fondo beige */
-    color: #7d3cff; /* Púrpura */
+    background-color: #f0f0f0; /* Fondo gris claro */
+    color: #333; /* Texto gris oscuro */
 }
 
 header {
-    background-color: #101357; /* Azul oscuro */
-    color: #fea49f; /* Rosa antiguo */
+    background-color: #1a1a1a; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
     padding: 20px;
     text-align: center;
 }
@@ -24,13 +25,13 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fea49f; /* Rosa antiguo */
+    color: #333; /* Texto gris oscuro */
     font-weight: bold;
 }
 
 .producto {
-    background-color: #00a0a0; /* Azul claro */
-    color: #161748; /* Azul marino */
+    background-color: #4d4d4d; /* Fondo gris */
+    color: #fff; /* Texto blanco */
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -45,8 +46,8 @@ nav a {
 }
 
 footer {
-    background-color: #007f4f; /* Verde */
-    color: #fff5d7; /* Amarillo claro */
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
     text-align: center;
     padding: 10px;
 }
