@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio de Mountain Bike</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        main {
+            flex: 1;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>¡Bienvenido al Sitio de Mountain Bike!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Rutas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <div class="producto">
+                <img src="bike1.jpg" alt="Mountain Bike 1">
+                <h3>Bicicleta de Montaña 1</h3>
+                <p>Descripción del producto...</p>
+            </div>
+            <div class="producto">
+                <img src="bike2.jpg" alt="Mountain Bike 2">
+                <h3>Bicicleta de Montaña 2</h3>
+                <p>Descripción del producto...</p>
+            </div>
+        </section>
+
+        <section id="rutas">
+            <h2>Nuestras Rutas</h2>
+            <p>Información sobre rutas...</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Formulario de contacto...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Derechos de autor &copy; 2024 | Sitio de Mountain Bike</p>
+    </footer>
+</body>
+</html>
